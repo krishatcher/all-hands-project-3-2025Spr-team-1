@@ -22,7 +22,7 @@ The group working on the project housed in this repo is:
 
 ### Research Question
 
-How does implementing a graph with Python’s `dict` of `set` vs. `list` impact performance in terms of insertion, deletion, and lookup speed?
+How does implementing a graph with Python's `dict` of `set` vs. `list` impact performance in terms of insertion, deletion, and lookup speed?
 
 ### Evaluation Metrics
 
@@ -43,3 +43,21 @@ TODO: include info on calling program
 ### Output
 
 TODO: include sample output
+
+## References
+
+1. Documentation
+    - [Python Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+    - [pytest Documentation](https://docs.pytest.org/en/stable/)
+2. Course Slides
+    - [Hierarchical Data Structures Course Slides](https://algorithmology.org/slides/weekthirteen/#/title-slide)
+
+### AI Usage in this Project
+
+AI was used in this project for:
+- Tree generation algorithms (adapted from Microsoft Copilot)
+- Code optimization and refactoring suggestions
+- Test case generation and documentation templates
+- Error handling and debugging support
+
+All AI-generated content was reviewed and validated by team members.
