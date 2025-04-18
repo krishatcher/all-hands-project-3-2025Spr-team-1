@@ -1,11 +1,12 @@
 """Generates data for the project."""
 
 import random
+from typing import Any
 
 
 # Sourced Using Microsoft Copilot and Adapted (https://copilot.microsoft.com/chats/8Y3Xi2vkHinE5SUGrRXCU)
 # Generates a tree with random values, between 0 and 1000, as a list of pairs
-def generate_random_tree_with_random_values_list(num_nodes):
+def generate_random_tree_with_random_values_list(num_nodes: int) -> Any:
     """Generates a random tree with randomly assigned integer values for nodes."""
     if num_nodes < 2:
         raise ValueError("A tree must have at least 2 nodes (root and one child).")
@@ -32,7 +33,7 @@ def generate_random_tree_with_random_values_list(num_nodes):
 
 # Sourced Using Microsoft Copilot and Adapted (https://copilot.microsoft.com/chats/8Y3Xi2vkHinE5SUGrRXCU)
 # Generates a tree with random values, between 0 and 1000, as a set of pairs
-def generate_random_tree_with_random_values_set(num_nodes):
+def generate_random_tree_with_random_values_set(num_nodes: int) -> Any:
     """Generates a random tree as a set of relationships with random node values."""
     if num_nodes < 2:
         raise ValueError("A tree must have at least 2 nodes (root and one child).")
