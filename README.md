@@ -49,6 +49,7 @@ TODO: include sample output
 1. Documentation
     - [Python Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
     - [pytest Documentation](https://docs.pytest.org/en/stable/)
+    - [geeksforgeeks](https://www.geeksforgeeks.org/python-dictionary-update-method/)
 2. Course Slides
     - [Hierarchical Data Structures Course Slides](https://algorithmology.org/slides/weekthirteen/#/title-slide)
 
@@ -59,5 +60,7 @@ AI was used in this project for:
 - Code optimization and refactoring suggestions
 - Test case generation and documentation templates
 - Error handling and debugging support
+- Generating sample data for testing
+- Writing documentation
 
 All AI-generated content was reviewed and validated by team members.
