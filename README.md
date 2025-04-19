@@ -81,6 +81,7 @@ Tree Implementation Comparison Results Summary
 ### AI Usage in this Project
 
 AI was used in this project for:
+
 - Tree generation algorithms (adapted from Microsoft Copilot)
 - Code optimization and refactoring suggestions
 - Test case generation and documentation templates
