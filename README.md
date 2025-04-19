@@ -87,5 +87,6 @@ AI was used in this project for:
 - Error handling and debugging support
 - Generating sample data for testing
 - Writing documentation
+- Autocompletion of repetitive code snippets
 
 All AI-generated content was reviewed and validated by team members.
