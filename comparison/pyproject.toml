@@ -5,7 +5,7 @@ description = "CS 202, All Hands Project #3, Spring 2025 Cohort, Team 1"
 authors = ["Anoop Guragain <guragain01@allegheny.edu>", "Kristopher Hatcher <hatcher01@allegheny.edu>", "Anton Hedlund <hedlund01@allegheny.edu>", "Rosa Ruiz Gonzalez <ruizgonzalez01@allegheny.edu>", "Molly Suppo <suppo01@allegheny.edu>"]
 
 [tool.poetry.scripts]
-comparison = "comparison.main:cli"
+comparison = "comparison.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
