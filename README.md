@@ -22,7 +22,7 @@ The group working on the project housed in this repo is:
 
 ### Research Question
 
-How does implementing a graph with Python's `dict` of `set` vs. `list` impact performance in terms of insertion, deletion, and lookup speed?
+How does implementing a tree with Python's `set` and `list` structures impact performance in terms of insertion, deletion, and lookup speed?
 
 ### Evaluation Metrics
 
