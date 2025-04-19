@@ -24,13 +24,13 @@ The group working on the project housed in this repo is:
 
 How does implementing a tree with Python's `set` and `list` structures impact performance in terms of insertion, deletion, and lookup speed?
 
-### Evaluation Metrics
-
-TODO: document evaluation metrics once decided upon
-
 ### Process
 
-TODO: document experimental process
+* Each member of the team was assigned a portion of the code implementation to complete.
+* Once all code is implemented, each team member will run the same set of benchmarking runs and add their data to the shared Google Sheet.
+* Each team member will then complete part of a writeup, specifically a portion of the writeup about the code they implemented. This writeup will be published on [algorithmology.org/allhands](https://algorithmology.org/allhands/) at the conclusion of the project.
+
+Each team member ran the experimental suite 5 times on their own machine. The five runs were with the following vertex counts: 20, 200, 2000, 20000, and 200000.
 
 ## Running the Experiment
 
@@ -38,11 +38,36 @@ In order to execute the code in this repo, a user must call the CLI function and
 
 ### Command Options
 
-TODO: include info on calling program
+To run the program, the minimum required is to simply enter `poetry run comparison` in the command line, while in the context of `/comparison` within this repo's structure. All options have default values (described below) that will be used to run the tool. The commands below would be added to that base command.
+
+* Help
+  * `-h` or `--help`: Show help message and exit.
+* Quiet
+  * `-q` or `--quiet`: Show summary results only.
+* Vertices
+  * `-v` or `--vertices`: Number of vertices in the tree. Default is 20.
 
 ### Output
 
-TODO: include sample output
+```command
+> poetry run comparison -v 20 -q
+
+Tree Implementation Comparison Results Summary
+
+                                   Experimental Results                                   
+┏━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┓
+┃ Implementation ┃ Operation       ┃ Repetitions ┃ Total Time (sec) ┃ Average Time (sec) ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━┩
+│ Set            │ Insert          │ 19          │ 0.0000171661     │ 0.0000009035       │
+│ Set            │ Lookup          │ 19          │ 0.0000078678     │ 0.0000004141       │
+│ Set            │ Delete          │ 9           │ 0.0000090599     │ 0.0000010067       │
+│ Set            │ Verify Deletion │ 9           │ 0.0000019073     │ 0.0000002119       │
+│ List           │ Insert          │ 19          │ 0.0000064373     │ 0.0000003388       │
+│ List           │ Lookup          │ 19          │ 0.0000038147     │ 0.0000002008       │
+│ List           │ Delete          │ 9           │ 0.0000042915     │ 0.0000004768       │
+│ List           │ Verify Deletion │ 9           │ 0.0000066757     │ 0.0000007417       │
+└────────────────┴─────────────────┴─────────────┴──────────────────┴────────────────────┘
+```
 
 ## References
 
