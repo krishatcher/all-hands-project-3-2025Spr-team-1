@@ -30,7 +30,7 @@ How does implementing a tree with Python's `set` and `list` structures impact pe
 * Once all code is implemented, each team member will run the same set of benchmarking runs and add their data to the shared Google Sheet.
 * Each team member will then complete part of a writeup, specifically a portion of the writeup about the code they implemented. This writeup will be published on [algorithmology.org/allhands](https://algorithmology.org/allhands/) at the conclusion of the project.
 
-Each team member ran the experimental suite 5 times on their own machine. The five runs were with the following vertex counts: 20, 200, 2000, 20000, and 200000.
+Each team member ran the experimental suite 5 times on their own machine. The five runs were with the following vertex counts: 1250, 2500, 5000, 10000, 20000.
 
 ## Running the Experiment
 
